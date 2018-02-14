@@ -1,0 +1,210 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+.header{
+margin-top: 10px;
+background-image: url("http://www.euroadventuresblog.com/uploads/1/2/9/7/12973378/402572547.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.toggle_menu{
+position: fixed;
+padding: 15px 20px 15px 15px;
+margin-top: 10px;
+color: white;
+cursor: pointer;
+z-index: 100000;
+font-size: 2em;
+opacity: 0;
+}
+
+.sidebar_menu{
+float: left;
+display: inline-block;
+position: fixed;
+bottom: 0;
+width: 250px;
+margin-left: 0px;
+overflow: hidden;
+height: 100vh;
+max-height: 100vh;
+background-color: rgba(17,17,17,0.9);
+opacity: 0.9;
+transition: all 0.3s ease-in-out;
+}
+
+.fa-times{
+left: 220px;
+top: 10px;
+opacity: 0.7;
+cursor: pointer;
+position: fixed;
+color: white;
+transition: all 0.3s ease-in-out;
+z-index:9999999;
+}
+
+.fa-times:hover{
+opacity: 1;
+}
+
+.boxed_item{
+margin-top: 40px;
+color: white;
+font-size: 1.3em;
+font-weight: 200;
+font-family: 'Gloria Hallelujah', cursive;
+padding: 10px 20px;
+display: inline-block;
+border: solid 2px white;
+box-sizing: border-box;
+text-align: center;
+}
+
+.nav{
+margin: 20px 0;
+display: block;
+width: 200px;
+margin-left: 25px;
+}
+
+.nav_item a{
+text-decoration: none;
+color: white;
+font-weight: 200;
+font-family: 'Gloria Hallelujah', cursive;
+
+box-sizing: border-box;
+font-size: 20px;
+color: #d8d8d8;
+border-bottom: solid 1px #D8D8D8;
+transition: 0.3s ease-in-out;
+cursor: pointer;
+}
+
+.hide_menu{
+margin-left: -250px;
+}
+
+.opacity_one{
+opacity: 1;
+transition: all 0.3s ease-in-out;
+}
+    #container {
+        display: block;
+        margin: auto;
+        margin-left: 25%;
+        width: 50%;
+        height: 350px;
+        position: relative;
+        bottom: 10px;
+        overflow: hidden;
+        background: white;
+        border: 5px solid #B0E0E6;
+    }
+    #slideshow {
+        height: 100%;
+        width: 100%;
+    }
+    #slideshow img {
+        height: 100%;
+        width: 100%;
+    }
+    #pager {
+        text-align: center;
+        height: 80px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        background: rgba(0,0,0,.5);
+        z-index: 1000;
+        opacity: 0;
+        transition: all 0.3s ease-in-out 0s;
+    }
+    #pager:hover {
+       opacity: 1;
+    }    
+    
+    #prev {
+        height: 60px;
+        width: 60px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left:0;
+        margin: auto 10px;
+        z-index: 1000;
+        cursor: pointer;
+    }
+     #next {
+        height: 60px;
+        width: 60px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right:0;
+        margin: auto 10px;
+        z-index: 1000;
+        cursor: pointer;
+    }
+     /*#next:hover {
+        margin-right: 0;
+        height: 300px;
+        background-color: rgba(0,0,0,0.5);   
+    }*/
+     #pager img {
+        //border: 1px solid black;
+        height: 80px;
+        width: 20%;
+        opacity: 0.3;
+        transition: all ease-in-out 0s;
+    }
+      #pager img:hover {
+        opacity: 1;
+        transform: scale(1.05);
+        z-index: 100;
+    }
+
+.title {
+font-size: 5em;
+font-family: 'Cookie', cursive;
+position: relative;
+margin-left: 25%;
+}
+
+.subject{
+font-family: 'Gloria Hallelujah', cursive;
+color: black;
+position: relative;
+margin-left: 0;
+text-align: center;
+}
+
+.description{
+color: black;
+text-align: center;
+font-family: 'Slabo 27px', serif;
+font-weight: 500;
+position: relative;
+margin-left: 0;
+padding: 10px;
+}
+
+.wiki{
+position: relative;
+top: 20px;
+margin:0 100px;
+}
+
+.vid{
+position: relative;
+margin-left: 17%;
+padding: 10px;
+}
+  
+body{
+background-color: #FFEBCD;
+}
